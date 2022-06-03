@@ -8,8 +8,8 @@
 */
 int main(void)
 {
-	int n; // declearing variable
-	int last_dig; // declaring variable
+	int n; //variable declaration
+	int last_dig; //variable declaration
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -31,3 +31,4 @@ int main(void)
 
 	return (0);
 }
+
